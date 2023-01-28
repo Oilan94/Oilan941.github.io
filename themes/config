@@ -1,0 +1,11 @@
+[core]
+	repositoryformatversion = 0
+	filemode = true
+	bare = false
+	logallrefupdates = true
+[remote "github"]
+	url = git@github.com:Oilan94/Oilan94.github.io.git
+	fetch = +refs/heads/Backup:refs/remotes/github/Backup
+[branch "master"]
+	remote = github
+	merge = refs/heads/Backup
